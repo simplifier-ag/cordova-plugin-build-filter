@@ -213,3 +213,4 @@ bh_unicode_properties.cache
 GitHub.sublime-settings
 
 /package-lock.json
+/.idea/
