@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-build-filter"
+        version="1.0.0">
+  <name>Build Filter</name>
+  <description>A cordova plugin to remove architectures which are not required for iOS devices but for iOS simulators while building.</description>
+  <author>Simplifier AG</author>
+  <license>Simplifier AG</license>
+
+  <engines>
+    <engine name="cordova" version=">=8.1.0"/>
+    <engine name="cordova-ios" version=">=4.5.5" />
+  </engines>
+
+  <platform name="ios">
+    <hook src="hooks/ios/addBuildScript.js" type="after_platform_add" />
+  </platform>
+</plugin>
