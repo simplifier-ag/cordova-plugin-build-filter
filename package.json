@@ -9,5 +9,9 @@
   "license": "Simplifier AG",
   "dependencies": {
     "xcode": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplifier-ag/cordova-plugin-build-filter.git"
   }
 }
